@@ -1,7 +1,11 @@
 # YOLO v5: Custom Dataset Create Bounding Box From Masks
 
+
+Put your dataset in folder 'Prepare dataset' and create folder to train and other to test
+
 1. Prepare dataset with bounding box
-> run code Extract_bounding_box_from_masks
+> run code PrepareData/Extract_bounding_box_from_masks
+
 
 2. Download YOLO v5
 ! git clone  https://github.com/ultralytics/yolov5.git
