@@ -4,9 +4,8 @@
 Put your dataset in folder 'Prepare dataset' and create folder to train and other to test
 
 ### 1. Prepare dataset with bounding box
-```ruby
-run code PrepareData/Extract_bounding_box_from_masks to create bounding box 
-```
+> run code PrepareData/Extract_bounding_box_from_masks to create bounding box 
+
 
 
 ### 2. Download YOLO v5
