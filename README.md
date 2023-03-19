@@ -16,11 +16,8 @@ Put your dataset in folder 'Prepare dataset' and create folder to train and othe
 ### 3. Create file **data.yaml** in folder yolov5
 ```ruby
 train: REFEUGE/train # caminho dos dados de treino 
-
 val: REFUGE/test # caminho dos dados de teste 
-
 nc: 1 
-
 names: ['disc']  
 ```
 
