@@ -16,10 +16,9 @@ train: REFEUGE/train # caminho dos dados de treino
 
 val: REFUGE/test # caminho dos dados de teste 
 
-nc: 2 # quantidade de classe 
+nc: 1 
 
-names: ['cup',  
-        'disc']  
+names: ['disc']  
 
 
 4. Train yolo (file train.py)
