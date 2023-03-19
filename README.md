@@ -8,11 +8,14 @@ Download YOLO v5
 
 Create file data.yaml in folder yolov5
 '''
-train: REFEUGE/train # caminho dos dados de treino \\
-val: REFUGE/test # caminho dos dados de teste \\
-nc: 2 # quantidade de classe \\
-names: ['cup',  \\
-        'disc'] \\ 
+train: REFEUGE/train # caminho dos dados de treino 
+
+val: REFUGE/test # caminho dos dados de teste 
+
+nc: 2 # quantidade de classe 
+
+names: ['cup',  
+        'disc']  
 '''
 
 Train yolo (file train.py)
