@@ -26,7 +26,9 @@ names: ['disc']
 python train.py --data data.yaml --weights yolov5s.pt --img 640 --batch-size 8 --name Model_refuge --epochs 60
 ```
 
-### 5. Exportar modelo onnx
+### 5. Export modelo onnx
 ```ruby
 python export.py --weights runs/train/Model_refuge/weights/best.pt --include onnx --simplify --opset 12
 ```
+
+
