@@ -5,7 +5,7 @@ Put your dataset in folder 'Prepare dataset' and create folder to train and othe
 
 The labels are saved in the same folder as the images.
 - Train
-- - img1.png
+  - img1.png
   - img.png
   - ...
   - img1.txt
