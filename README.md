@@ -6,7 +6,7 @@ Put your dataset in folder 'Prepare dataset' and create folder to train and othe
 The labels are saved in the same folder as the images.
 - Train
   - img1.png
-  - img.png
+  - img2.png
   - ...
   - img1.txt
   - img2.txt
@@ -37,7 +37,7 @@ python train.py --data data.yaml --weights yolov5s.pt --img 640 --batch-size 8 -
 
 ### 5. Export modelo onnx
 ```ruby
-python export.py --weights runs/train/Model_refuge/weights/best.pt --include onnx --simplify --opset 12
+python export.py --weights runs/train/Model/weights/best.pt --include onnx --simplify --opset 12
 ```
 
 
