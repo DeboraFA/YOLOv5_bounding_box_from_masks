@@ -1,7 +1,16 @@
 # YOLO v5: Custom Dataset Create Bounding Box From Masks
 
 
-Put your dataset in folder 'Prepare dataset' and create folder to train and other to test
+Put your dataset in folder 'Prepare dataset' and create folder to train and other to test.
+
+The labels are saved in the same folder as the images.
+- Train
+  - img1.png
+  - img.png
+  - ...
+  - img1.txt
+  - img2.txt
+  - ...
 
 ### 1. Prepare dataset with bounding box
 > run code PrepareData/Extract_bounding_box_from_masks to create bounding box 
