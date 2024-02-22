@@ -40,4 +40,10 @@ python train.py --data data.yaml --weights yolov5s.pt --img 640 --batch-size 8 -
 python export.py --weights runs/train/Model/weights/best.pt --include onnx --simplify --opset 12
 ```
 
+### 6. Result
+
+| Result YOLO v5 localized disc optic     |
+|-----------------------------------------|
+| ![val_batch2_pred](./Predict/model2/val_batch2_pred.jpg) Predict localized disc optic using YOLO v5 in image|
+
 
