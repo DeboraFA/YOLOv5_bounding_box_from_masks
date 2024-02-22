@@ -44,6 +44,6 @@ python export.py --weights runs/train/Model/weights/best.pt --include onnx --sim
 
 | Result YOLO v5 localized disc optic     |
 |-----------------------------------------|
-| ![val_batch2_pred](./Predict/model2/val_batch2_pred.jpg) Predict localized disc optic using YOLO v5 in image|
+| ![val_batch2_pred](./Predict/Model2/val_batch2_pred.jpg) Predict localized disc optic using YOLO v5 in image|
 
 
